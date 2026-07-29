@@ -1,0 +1,7 @@
+transformers
+torch
+accelerate
+llama-cpp-python
+psutil
+sentencepiece
+huggingface_hub

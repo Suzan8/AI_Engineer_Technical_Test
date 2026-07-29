@@ -1,0 +1,5 @@
+Define AI.
+What is Python?
+What is Docker?
+What is RAG?
+Name one benefit of machine learning.

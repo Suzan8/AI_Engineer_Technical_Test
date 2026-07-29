@@ -1,0 +1,16 @@
+.test/
+__pycache__/
+*.pyc
+
+.git/
+.vscode/
+
+*.ipynb
+
+section2_langchain_rag/vectorstore/
+
+section2_langchain_rag/data/
+
+*.pdf
+
+.env

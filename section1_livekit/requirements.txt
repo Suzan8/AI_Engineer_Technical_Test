@@ -1,0 +1,7 @@
+livekit-agents==1.6.7
+livekit-plugins-google==1.6.7
+livekit-plugins-deepgram==1.6.7
+livekit-plugins-cartesia==1.6.7
+
+python-dotenv==1.1.1
+word2number==1.1
