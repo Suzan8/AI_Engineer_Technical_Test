@@ -14,7 +14,6 @@ The goal of this section is to evaluate the impact of model quantization by comp
 ---
 
 ## Project Structure
-
 ```
 section3_quantization/
 │
