@@ -1,6 +1,7 @@
 transformers
 torch
 accelerate
+bitsandbytes
 llama-cpp-python
 psutil
 sentencepiece

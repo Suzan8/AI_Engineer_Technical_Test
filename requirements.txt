@@ -1,13 +1,25 @@
-fastapi
-uvicorn
-requests
+# ==========================
+# Section 1 - LiveKit
+# ==========================
+livekit-agents==1.6.7
+livekit-plugins-google==1.6.7
+livekit-plugins-deepgram==1.6.7
+livekit-plugins-cartesia==1.6.7
 
-python-dotenv
+# ==========================
+# Common
+# ==========================
+python-dotenv==1.1.1
+requests
 numpy
 tqdm
+psutil
+word2number
 
+# ==========================
+# RAG / LangChain
+# ==========================
 pypdf
-
 faiss-cpu
 
 langchain
@@ -19,10 +31,31 @@ langchain-text-splitters
 
 google-genai
 
+# ==========================
+# HuggingFace
+# ==========================
 sentence-transformers
 transformers
 huggingface-hub
+sentencepiece
+accelerate
 
+# ==========================
+# PyTorch
+# ==========================
 torch
 torchvision
 torchaudio
+
+# ==========================
+# Quantization
+# ==========================
+accelerate
+bitsandbytes
+llama-cpp-python
+
+# ==========================
+# Deployment
+# ==========================
+fastapi
+uvicorn
