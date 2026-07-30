@@ -180,6 +180,7 @@ Run the container
 
 ```bash
 docker run -p 8000:8000 rag-api
+docker run --env-file .env -p 8000:8000 rag-api
 ```
 
 ---
@@ -195,6 +196,11 @@ docker run -p 8000:8000 rag-api
 * Docker
 * Uvicorn
 * Requests
+
+### Docker Deployment
+
+- **Local Run:** FastAPI executed from the local Python environment.
+- **Docker Run:** The same application executed inside a Docker container with all dependencies packaged.
 
 ---
 
