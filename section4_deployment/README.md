@@ -173,6 +173,7 @@ Build the Docker image
 
 ```bash
 docker build -f section4_deployment/Dockerfile -t rag-api .
+docker build --no-cache -f section4_deployment/Dockerfile -t rag-api .
 ```
 
 Run the container

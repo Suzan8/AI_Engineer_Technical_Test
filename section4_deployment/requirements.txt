@@ -9,7 +9,6 @@ pypdf
 faiss-cpu
 
 langchain
-langchain-core
 langchain-community
 langchain-google-genai
 langchain-huggingface
@@ -18,7 +17,4 @@ langchain-text-splitters
 google-genai
 
 sentence-transformers
-transformers
-huggingface-hub
 
-torch

@@ -7,10 +7,10 @@ __pycache__/
 
 *.ipynb
 
-section2_langchain_rag/vectorstore/
-
-section2_langchain_rag/data/
+.env
 
 *.pdf
 
-.env
+.cache/
+.pytest_cache/
+.mypy_cache/
